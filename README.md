@@ -1,7 +1,7 @@
 # 🍕 3806ICT Assignment 2 - Autonomous Pizza Delivery
 A simulation project using Gazebo and Robot Operating System (ROS) where four autonomous delivery robots traverse a 16 by 16 grid world to deliver pizzas to randomly assigned delivery addresses. The system includes real-time path planning, obstacle avoidance, and communication between services via a shared world.
 
-<img width="743" height="735" alt="image" src="https://github.com/user-attachments/assets/24bc488e-3151-45c0-be55-508ab2411947" />
+https://github.com/user-attachments/assets/6c78c307-0970-4922-8c64-c19b98c5542e
 
 ## 🚀 Project Overview
 This project simulates a multi-robot pizza delivery system using ROS and the Gazebo simulator. Four robots deliver pizzas from a central base to customers on a 16 by 16 grid handling pathfinding, obstacle detection, and grid updates.\
