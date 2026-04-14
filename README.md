@@ -1,4 +1,4 @@
-# 🍕 3806ICT Assignment 2 - Autonomous Pizza Delivery
+# 🍕 graph-based-multi-robot-nav - Autonomous Pizza Delivery
 A simulation project using Gazebo and Robot Operating System (ROS) where four autonomous delivery robots traverse a 16 by 16 grid world to deliver pizzas to randomly assigned delivery addresses. The system includes real-time path planning, obstacle avoidance, and communication between services via a shared world.
 
 https://github.com/user-attachments/assets/6c78c307-0970-4922-8c64-c19b98c5542e
@@ -10,12 +10,6 @@ Key features include:
 - Real-time communication and world updates between robots and related nodes.
 - Smooth interpolation between grid positions.
 - Obstacle awareness via the use of sensors.
-
-## ✏️ Authors
-- Giang Pham - S5334670
-- Stefan Barosan - S5277574
-- Tennille Kelly - S1172755
-- Will Wallace - S5287361
 
 ## 🤖 How It Works
 
@@ -54,7 +48,7 @@ To run this project on your machine:
 ## 📁 Project Structure
 
 ~~~
-3806ICT-Assignment-2/            ← Workspace root
+graph-based-multi-robot-nav/            ← Workspace root
 └── src/
     └── my_sim_pkg/              ← Our package
         ├── CMakeLists.txt
