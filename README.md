@@ -50,17 +50,17 @@ To run this project on your machine:
 ~~~
 graph-based-multi-robot-nav/            ← Workspace root
 └── src/
-    └── my_sim_pkg/              ← Our package
+    └── my_sim_pkg/              ← Package
         ├── CMakeLists.txt
         ├── package.xml
         ├── launch/              ← Launch files to load the world
         │   ├── robot_system.launch
         │   ├── world_simulation.launch
         │   └── spawn_robots.launch
-        ├── worlds/              ← Our worlds
+        ├── worlds/              ← Worlds
         │   ├── tubgbot_depot.sdf
         │   └── thumbnails/
-        ├── media/               ← Our media
+        ├── media/               ← Media
         │   ├── audio/
         │   ├── dem/
         │   ├── fonts/
@@ -69,7 +69,7 @@ graph-based-multi-robot-nav/            ← Workspace root
         │   ├── models/
         │   ├── rtshaderlib/
         │   └── skyx/
-        ├── models/              ← Our models
+        ├── models/              ← Models
         │   ├── Base Station/
         │   ├── cardboard_box/
         │   ├── custom_ground_plane/
@@ -78,13 +78,13 @@ graph-based-multi-robot-nav/            ← Workspace root
         │   ├── turtlebot3_burger_2/
         │   ├── turtlebot3_burger_3/
         |   └── turtlebot3_burger_4/
-        ├── scripts/             ← Our scripts (for spawning)
+        ├── scripts/             ← Scripts (for spawning)
         │   ├── spawn_houses.py
         │   ├── spawn_obstacles.py
         |   └── spawn_entities.py
-        ├── config/              ← Our configuration file
+        ├── config/              ← Configuration file
         |   └── shared_settings.yaml
-        ├── srv/                 ← Our services
+        ├── srv/                 ← Services
         |   ├── relay/
         |   └── grid/
         └── src/                 ←  Python nodes here
